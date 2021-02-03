@@ -5,12 +5,13 @@ import {
   Route
 } from "react-router-dom";
 
+import data from "../data/questions.json";
 import NoMatch from './NoMatch';
 import LandingPageContainer from '../Modules/landing-page/container/LandingPageContainer';
-import QuizzContainer from '../Modules/quizz/container/QuizzContainer';
 import HeaderComponent from '../Modules/common/HeaderComponent';
 import FooterComponent from '../Modules/common/FooterComponent';
-
+import QuizzContainer from '../Modules/quizz/container/QuizzContainer';
+import QuestionComponent from '../Modules/quizz/components/QuestionComponent';
 
 function Routing() {
     return (
@@ -23,7 +24,10 @@ function Routing() {
                 <LandingPageContainer />
             </Route>
             <Route exact path="/quizz">
-                <QuizzContainer />
+                <QuizzContainer questionsData={data} />
+            </Route>
+            <Route  path="/quizz/:id">
+                <QuestionComponent questionData={data} />
             </Route>
             <Route path="*">
                 <NoMatch />
