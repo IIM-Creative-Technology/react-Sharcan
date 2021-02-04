@@ -28,7 +28,8 @@
                         "response": "probablement pas",
                         "valid": false
                     }
-                ]
+                ],
+                "correct_response": 0
             },
             {
                 "id": 1,
@@ -54,7 +55,8 @@
                         "response": "probablement pas",
                         "valid": true
                     }
-                ]
+                ],
+                "correct_response": 3
             }
         ]
     },
@@ -88,7 +90,8 @@
                         "response": "probablement pas",
                         "valid": true
                     }
-                ]
+                ],
+                "correct_response": 2
             },
             {
                 "id": 1,
@@ -114,7 +117,8 @@
                         "response": "probablement pas",
                         "valid": false
                     }
-                ]
+                ],
+                "correct_response": 0
             }
         ]
     }

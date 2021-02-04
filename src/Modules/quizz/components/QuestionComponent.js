@@ -12,7 +12,6 @@ function QuestionComponent(props) {
     let { id } = useParams();
     // On récupère les questions en fonction de l'id
     const allQuestions = props.questionData[id].questions;
-    // On passe a la question suivante
     
 
     // On affiche les questions ici
@@ -24,29 +23,59 @@ function QuestionComponent(props) {
                 </div>
             )
         }
+
+        return <div>Vous Avez fini</div>
     }
+
+    const SubmitButton = () => {
+        return(
+            <button onClick={() => {
+                setCurrentQuestion(currentQuestion + 1);
+                const form = document.querySelector("form");
+                const data = new FormData(form);
+                for (const entry of data) {
+                    console.log(entry[1], allQuestions[currentQuestion].correct_response)
+                    if(entry[1] == allQuestions[currentQuestion].correct_response){
+                        setScore(score + 1);
+                    }
+                  };
+                }}>
+                Valider
+            </button>
+        )
+    }
+
 
     // On affiche les réponses ici
     const Responses = () => {
         if(!(currentQuestion >= allQuestions.length)) {
-            const reponse = allQuestions[currentQuestion].responses.map(value => {
+            const response = allQuestions[currentQuestion].responses.map(value => {
                 return (
-                    <p>
-                        {value.response}
-                    </p>
+                    <div>
+                        <input type="radio" id={value.response} name="response" value={value.id} />
+                        <label>{value.response}</label>
+                    </div>
                 )
             });
-            return <div>{reponse}</div>
+            return(
+                <form>
+                    <div>
+                        {response}
+                        <SubmitButton />
+                    </div>  
+                </form>
+                
+            );
         }
-
+        
+        return <></>
     }
 
     return (
         <div>
             <Question />
             <Responses />
-
-            <button onClick={() => setCurrentQuestion(currentQuestion + 1)}>Valider</button>
+            ton score : {score}
         </div>
     )
 }
