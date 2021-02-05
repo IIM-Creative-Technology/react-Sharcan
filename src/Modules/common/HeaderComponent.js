@@ -1,5 +1,6 @@
 import React from "react";
 import '../../App.scss';
+import '../../Sass/components/_header.scss';
 
 import {
     Link
@@ -8,21 +9,24 @@ import {
 
 function HeaderComponent() {
     return (
-        <header>
-            <nav>
-                <ul>
-                    <li>
+        <header className="header_app">
+            <div className="header_row_app">
+                <div className="header_start_nav_app start_item">
+                    <a>QuizzLol</a>
+                </div>
+                <div className="header_end_nav_app">
+                    <div className="end_item">
                         <Link to="/">
                             Home
                         </Link>
-                    </li>
-                    <li>
+                    </div>
+                    <div className="end_item">
                         <Link to="/quizz">
                             Quizz
                         </Link>
-                    </li>
-                </ul>
-            </nav>
+                    </div>
+                </div>
+            </div>
         </header>
     )
 }
