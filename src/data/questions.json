@@ -2,7 +2,7 @@
     {
         "id": 0,
         "theme": "Bilgwater",
-        "img": "fond0.png",
+        "img": "bilgewater.jpg",
         "questions": [
             {
                 "id": 0,
@@ -64,7 +64,131 @@
     {
         "id": 1,
         "theme": "Frejlord",
-        "img": "fond1.png",
+        "img": "frejlord.jpg",
+        "questions": [
+            {
+                "id": 0,
+                "question": "Ashe est marié a Tryndamere",
+                "responses": [
+                    {
+                        "id": 0,
+                        "response": "oui",
+                        "valid": false
+                    },
+                    {
+                        "id": 1,
+                        "response": "non",
+                        "valid": false
+                    },
+                    {
+                        "id": 2,
+                        "response": "probablement",
+                        "valid": false
+                    },
+                    {
+                        "id": 3,
+                        "response": "probablement pas",
+                        "valid": true
+                    }
+                ],
+                "correct_response": 0
+            },
+            {
+                "id": 1,
+                "question": "Ornn à créer le pont de l'abyme hurlant",
+                "responses": [
+                    {
+                        "id": 0,
+                        "response": "oui",
+                        "valid": false
+                    },
+                    {
+                        "id": 1,
+                        "response": "non",
+                        "valid": true
+                    },
+                    {
+                        "id": 2,
+                        "response": "probablement",
+                        "valid": false
+                    },
+                    {
+                        "id": 3,
+                        "response": "probablement pas",
+                        "valid": false
+                    }
+                ],
+                "correct_response": 1
+            }
+        ]
+    },
+
+    {
+        "id": 1,
+        "theme": "Frejlord",
+        "img": "frejlord.jpg",
+        "questions": [
+            {
+                "id": 0,
+                "question": "Ashe est marié a Tryndamere",
+                "responses": [
+                    {
+                        "id": 0,
+                        "response": "oui",
+                        "valid": false
+                    },
+                    {
+                        "id": 1,
+                        "response": "non",
+                        "valid": false
+                    },
+                    {
+                        "id": 2,
+                        "response": "probablement",
+                        "valid": false
+                    },
+                    {
+                        "id": 3,
+                        "response": "probablement pas",
+                        "valid": false
+                    }
+                ],
+                "correct_response": 0
+            },
+            {
+                "id": 1,
+                "question": "Ornn à créer le pont de l'abyme hurlant",
+                "responses": [
+                    {
+                        "id": 0,
+                        "response": "oui",
+                        "valid": false
+                    },
+                    {
+                        "id": 1,
+                        "response": "non",
+                        "valid": true
+                    },
+                    {
+                        "id": 2,
+                        "response": "probablement",
+                        "valid": false
+                    },
+                    {
+                        "id": 3,
+                        "response": "probablement pas",
+                        "valid": false
+                    }
+                ],
+                "correct_response": 1
+            }
+        ]
+    },
+
+    {
+        "id": 1,
+        "theme": "Frejlord",
+        "img": "frejlord.jpg",
         "questions": [
             {
                 "id": 0,
