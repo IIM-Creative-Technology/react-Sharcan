@@ -1,0 +1,10 @@
+@import '../../helpers/variables';
+@import '../../helpers/helpers';
+@import '../../helpers/margins';
+
+.welcome_container{
+    .welcome_title_container{
+        padding: 3%;
+        background-color: $whiteTransparancy;
+    }
+}

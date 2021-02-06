@@ -16,5 +16,38 @@ ul {
 
 .title{
     font-size: 4rem;
-    margin-bottom: 10%;
+}
+
+.subtitle{
+    font-size: 2rem;
+    font-style: italic;
+    // font-family: 'LolBold';
+}
+
+.paragraphe{
+    text-align: justify;
+}
+
+.weight_bold{
+    font-weight: bold;
+}
+
+.lolFont{
+    font-family: LolBold;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.black{
+    color: $black;
+}
+
+.white{
+    color: $white;
+}
+
+.center{
+    text-align: center;
 }

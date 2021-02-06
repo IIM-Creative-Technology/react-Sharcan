@@ -1,19 +1,21 @@
 import React from 'react';
 import { useLocation, Link } from "react-router-dom";
+import '../Sass/components/_container.scss';
+import '../Sass/components/_button.scss';
 
 function NoMatch() {
     let location = useLocation();
   
     return (
-      <div>
-       <h1>Page introuvable</h1>
-       
-        <Link to="/" title="Revenir sur la page principale">
-           Retour sur la page d'accueil
-        </Link>
-            
-        <br/>
-        <code>Page : {location.pathname}</code>
+      <div className="container">
+        <p className="title">Page introuvable</p>
+        <p className="subtitle">Aucun résultat pour "<code>{location.pathname}"</code>
+</p>
+        <button className="button">
+          <Link to="/">
+            Revenir à la page d'accueil
+          </Link>
+        </button>
       </div>
     );
   }
