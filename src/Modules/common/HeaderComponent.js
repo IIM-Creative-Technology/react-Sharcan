@@ -12,7 +12,7 @@ function HeaderComponent() {
         <header className="header_app">
             <div className="header_row_app">
                 <div className="header_start_nav_app start_item">
-                    <a>QuizzLol</a>
+                    <Link to="/">League Quizz</Link>
                 </div>
                 <div className="header_end_nav_app">
                     <div className="end_item">

@@ -1,0 +1,30 @@
+@import '../../helpers/variables';
+@import '../../helpers/helpers';
+
+
+.meteo_title{
+    margin-top: 2%;
+}
+
+.meteo_container{
+    margin-top: 5%;
+    height: 100vh;
+    color: $white;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+    .meteo_paragraphe{
+        margin-right: 15%;
+        font-size: 1.5rem;
+    }
+
+    
+    .meteo_icon img{
+        margin-right: 20%;
+        width: 120%;
+    }
+
+
+}
