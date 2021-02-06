@@ -11,7 +11,7 @@ import LandingPageContainer from '../Modules/landing-page/container/LandingPageC
 import HeaderComponent from '../Modules/common/HeaderComponent';
 import FooterComponent from '../Modules/common/FooterComponent';
 import QuizzContainer from '../Modules/quizz/container/QuizzContainer';
-import QuestionComponent from '../Modules/quizz/components/QuestionComponent';
+import QuestionComponent from '../Modules/quizz/components/QuestionsComponent';
 
 function Routing() {
     return (

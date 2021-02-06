@@ -124,9 +124,9 @@
     },
 
     {
-        "id": 1,
-        "theme": "Frejlord",
-        "img": "frejlord.jpg",
+        "id": 2,
+        "theme": "Demacia",
+        "img": "demacia.jpg",
         "questions": [
             {
                 "id": 0,
@@ -186,9 +186,9 @@
     },
 
     {
-        "id": 1,
-        "theme": "Frejlord",
-        "img": "frejlord.jpg",
+        "id": 3,
+        "theme": "Ionia",
+        "img": "ionia.jpg",
         "questions": [
             {
                 "id": 0,

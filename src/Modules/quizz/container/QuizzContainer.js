@@ -2,13 +2,13 @@ import React from "react";
 import {
     Link,
 } from "react-router-dom";
-import '../../../Sass/components/_quizz.scss';
+import '../../../Sass/components/quizz/_quizz.scss';
 
 function QuizzContainer(props) {
 
     const ThemeTitle = () => {
         return (
-            <p className="title">Choississez un Thème :</p>
+            <p className="title mb-2 white lolFont center quizz_title">Choisissez un Thème :</p>
         )
     }
 
@@ -16,7 +16,7 @@ function QuizzContainer(props) {
        const themes = props.data.map((question, key) => {
             return (
                 <div className="theme_item" onClick={() => {window.location.href=`/quizz/${question.id}`}} key={key}>
-                    <div>
+                    <div className="img_theme">
                         <img src={`${process.env.PUBLIC_URL}/assets/img/themes_background/${question.img}`} alt={question.theme} />
                     </div>
                     <div>
@@ -30,12 +30,16 @@ function QuizzContainer(props) {
     } 
 
     return (
-        <div className="container">
-            <ThemeTitle />
-            <Themes data={props.questionsData}/>
-        </div>
-
+        <>
+            <div className="quizz_top_title">
+                <ThemeTitle />
+            </div>
+            <div className="quizz_theme_container">
+                <Themes data={props.questionsData}/>
+            </div>
+        </>
     )
 }
+
 
 export default QuizzContainer;
