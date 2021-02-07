@@ -54,7 +54,7 @@ function ShowMeteoIcon(props) {
     return <EmptyImg />
 }
 function GetIconMeteo(props) {
-    return <img src={`http://openweathermap.org/img/wn/${props.iconId}@2x.png`} alt="meteo_icon"/>
+    return <img src={`https://openweathermap.org/img/wn/${props.iconId}@2x.png`} alt="meteo_icon"/>
 }
 function EmptyImg() {
     return <p>Chargement de la météo en cours</p>
