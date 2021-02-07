@@ -97,7 +97,7 @@ function ShowResponses(props){
     
     const randomResponses = props.responses.map((value, key) => {
         return (
-            <div className="center">
+            <div className="center" key={key}>
                 <div>
                     <label>
                         <input className="checkbox_custom" type="radio" id={value.response} name="response" value={value.id} onChange={() => {props.setIsSelected(true)}}/>
@@ -135,13 +135,5 @@ function ButtonSubmit(props) {
     )
 }
 
-function ProgressBar(props) {
-
-    return (
-        <div className="progress">
-            <div className="bar"></div>
-        </div>
-    )
-}
 
 export default QuestionComponent;
