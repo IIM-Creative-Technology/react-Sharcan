@@ -1,0 +1,9 @@
+@import "./Sass/helpers/variables";
+@import "./Sass/helpers/helpers";
+@import "./Sass/helpers/margins";
+@import './Sass/components/container';
+@import './Sass/components/button';
+
+.App {
+  background-color: $generalBackground;
+}

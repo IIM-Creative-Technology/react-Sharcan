@@ -1,0 +1,30 @@
+@import '../helpers/variables';
+@import '../helpers/helpers';
+
+.header_app{
+
+    .header_row_app{
+        display: flex;
+        flex-direction: row;
+        
+
+
+        .header_end_nav_app{
+
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            width: 85%;
+
+            .end_item{
+                font-size: 1.5rem;
+                padding: 1% 4% 1% 4%;
+            }
+        }
+
+        .start_item{
+            padding: 1% 1%;
+            font-size: 1.5rem;
+        }
+    }
+}

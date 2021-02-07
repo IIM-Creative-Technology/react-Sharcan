@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: $fontColor;
+    font-weight: bolder;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+ul { 
+    list-style-type: none; 
+}
+
+.title{
+    font-size: 4rem;
+}
+
+.subtitle{
+    font-size: 2rem;
+    font-style: italic;
+    // font-family: 'LolBold';
+}
+
+.paragraphe{
+    text-align: justify;
+}
+
+.weight_bold{
+    font-weight: bold;
+}
+
+.lolFont{
+    font-family: LolBold;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.black{
+    color: $black;
+}
+
+.white{
+    color: $white;
+}
+
+.center{
+    text-align: center;
+}
+
+
+@media screen and (max-width: 640px) {
+    .title{
+        font-size: 2rem;
+    }
+
+    .subtitle{
+        font-size: 1rem;
+    }
+}

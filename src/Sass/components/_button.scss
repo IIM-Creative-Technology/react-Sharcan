@@ -1,0 +1,55 @@
+@import '../helpers/variables';
+@import '../helpers/helpers';
+
+.button{
+    border: 2px solid $buttonBorder;
+    background-color: $buttonBackground;
+    color: $fontColor;
+    transition: 0.5s;
+    padding: 10px 15px;
+}
+
+.button:hover{
+    border: 2px solid $buttonBackground;
+    background-color: $buttonBorder;
+    color: $buttonBackground;
+    transition: 0.5s;
+}
+
+.button:disabled{
+    border: 2px solid grey;
+    background-color: grey;
+    color: $buttonBackground;
+    transition: 0.5s;
+    cursor: not-allowed;
+}
+
+
+.checkbox_custom{
+    appearance: none;
+    height: 35px;
+    width: 35px;
+    transition: all 0.15s ease-out 0s;
+    background: $checkboxBackground;
+    border: 1px solid $buttonBorder;
+    color: $white;
+    cursor: pointer;
+    display: inline-block;
+    outline: none;
+}
+
+.checkbox_custom:checked {
+    background: $buttonBorder;
+    border-radius: 50%;
+}
+
+.checkbox_custom:checked::before {
+    height: 35px;
+    width: 35px;
+    position: absolute;
+    content: '✔';
+    display: inline-block;
+    font-size: 20px;
+    text-align: center;
+    line-height: 35px;
+  }

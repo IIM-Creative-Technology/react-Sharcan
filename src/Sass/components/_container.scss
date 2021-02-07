@@ -1,0 +1,13 @@
+@import '../helpers/variables';
+@import '../helpers/helpers';
+
+.container{
+    height: 91vh;
+    color: $white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
