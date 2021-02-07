@@ -6,243 +6,948 @@
         "questions": [
             {
                 "id": 0,
-                "question": "Miss Fortune fait-elle partie de la Région Bilgewater ?",
+                "question": "Bilgewater se trouve...",
                 "responses": [
                     {
                         "id": 0,
-                        "response": "oui",
-                        "valid": true
+                        "response": "Dans l'archipel des Iles de la Flamme bleue"
                     },
                     {
                         "id": 1,
-                        "response": "non",
-                        "valid": false
+                        "response": "Au sommet du Mont Targon"
                     },
                     {
                         "id": 2,
-                        "response": "probablement",
-                        "valid": false
+                        "response": "N'existe pas"
                     },
                     {
                         "id": 3,
-                        "response": "probablement pas",
-                        "valid": false
+                        "response": "Au Sud de Ionia"
                     }
                 ],
                 "correct_response": 0
             },
             {
                 "id": 1,
-                "question": "Nautilus ne fait pas partie de la Région Bilgewater ?",
+                "question": "Bilgwater est avant tout...",
                 "responses": [
                     {
                         "id": 0,
-                        "response": "oui",
-                        "valid": false
+                        "response": "Un marché où l'on trouve des Poros"
                     },
                     {
                         "id": 1,
-                        "response": "non",
-                        "valid": false
+                        "response": "Une ville portuaire connecté au reste de Runeterra"
                     },
                     {
                         "id": 2,
-                        "response": "probablement",
-                        "valid": false
+                        "response": "Un lieu paisible"
                     },
                     {
                         "id": 3,
-                        "response": "probablement pas",
-                        "valid": true
+                        "response": "Une colonie de Vastayas"
+                    }
+                ],
+                "correct_response": 1
+            },
+            {
+                "id": 2,
+                "question": "Le veritable de prénom de Miss Fortune est...",
+                "responses": [
+                    {
+                        "id": 0,
+                        "response": "Clara Fortune"
+                    },
+                    {
+                        "id": 1,
+                        "response": "Sarah Fortune"
+                    },
+                    {
+                        "id": 2,
+                        "response": "Marla Fortune"
+                    },
+                    {
+                        "id": 3,
+                        "response": "Titouan Fortune"
+                    }
+                ],
+                "correct_response": 1
+            },
+            
+            {
+                "id": 3,
+                "question": "Twisted Fate est le spécialiste ...",
+                "responses": [
+                    {
+                        "id": 0,
+                        "response": "Des sabres"
+                    },
+                    {
+                        "id": 1,
+                        "response": "Des tentacules"
+                    },
+                    {
+                        "id": 2,
+                        "response": "Des arcs"
+                    },
+                    {
+                        "id": 3,
+                        "response": "Des cartes"
                     }
                 ],
                 "correct_response": 3
-            }
-        ]
-    },
-
-    {
-        "id": 1,
-        "theme": "Frejlord",
-        "img": "frejlord.jpg",
-        "questions": [
-            {
-                "id": 0,
-                "question": "Ashe est marié a Tryndamere",
-                "responses": [
-                    {
-                        "id": 0,
-                        "response": "oui",
-                        "valid": false
-                    },
-                    {
-                        "id": 1,
-                        "response": "non",
-                        "valid": false
-                    },
-                    {
-                        "id": 2,
-                        "response": "probablement",
-                        "valid": false
-                    },
-                    {
-                        "id": 3,
-                        "response": "probablement pas",
-                        "valid": true
-                    }
-                ],
-                "correct_response": 0
             },
             {
-                "id": 1,
-                "question": "Ornn à créer le pont de l'abyme hurlant",
+                "id": 4,
+                "question": "Le veritable de nom de Twisted Fates est...",
                 "responses": [
                     {
                         "id": 0,
-                        "response": "oui",
-                        "valid": false
+                        "response": "Graves Fates"
                     },
                     {
                         "id": 1,
-                        "response": "non",
-                        "valid": true
+                        "response": "Eude Fates"
                     },
                     {
                         "id": 2,
-                        "response": "probablement",
-                        "valid": false
+                        "response": "Tobias Felix"
                     },
                     {
                         "id": 3,
-                        "response": "probablement pas",
-                        "valid": false
-                    }
-                ],
-                "correct_response": 1
-            }
-        ]
-    },
-
-    {
-        "id": 1,
-        "theme": "Frejlord",
-        "img": "frejlord.jpg",
-        "questions": [
-            {
-                "id": 0,
-                "question": "Ashe est marié a Tryndamere",
-                "responses": [
-                    {
-                        "id": 0,
-                        "response": "oui",
-                        "valid": false
-                    },
-                    {
-                        "id": 1,
-                        "response": "non",
-                        "valid": false
-                    },
-                    {
-                        "id": 2,
-                        "response": "probablement",
-                        "valid": false
-                    },
-                    {
-                        "id": 3,
-                        "response": "probablement pas",
-                        "valid": false
-                    }
-                ],
-                "correct_response": 0
-            },
-            {
-                "id": 1,
-                "question": "Ornn à créer le pont de l'abyme hurlant",
-                "responses": [
-                    {
-                        "id": 0,
-                        "response": "oui",
-                        "valid": false
-                    },
-                    {
-                        "id": 1,
-                        "response": "non",
-                        "valid": true
-                    },
-                    {
-                        "id": 2,
-                        "response": "probablement",
-                        "valid": false
-                    },
-                    {
-                        "id": 3,
-                        "response": "probablement pas",
-                        "valid": false
-                    }
-                ],
-                "correct_response": 1
-            }
-        ]
-    },
-
-    {
-        "id": 1,
-        "theme": "Frejlord",
-        "img": "frejlord.jpg",
-        "questions": [
-            {
-                "id": 0,
-                "question": "Ashe est marié a Tryndamere",
-                "responses": [
-                    {
-                        "id": 0,
-                        "response": "oui",
-                        "valid": false
-                    },
-                    {
-                        "id": 1,
-                        "response": "non",
-                        "valid": false
-                    },
-                    {
-                        "id": 2,
-                        "response": "probablement",
-                        "valid": false
-                    },
-                    {
-                        "id": 3,
-                        "response": "probablement pas",
-                        "valid": true
+                        "response": "John Doe"
                     }
                 ],
                 "correct_response": 2
             },
             {
-                "id": 1,
-                "question": "Ornn à créer le pont de l'abyme hurlant",
+                "id": 5,
+                "question": "Le roi des pillards est plus connu sous le nom de...",
                 "responses": [
                     {
                         "id": 0,
-                        "response": "oui",
-                        "valid": false
+                        "response": "Gankplank"
                     },
                     {
                         "id": 1,
-                        "response": "non",
-                        "valid": true
+                        "response": "Twisted Fates"
                     },
                     {
                         "id": 2,
-                        "response": "probablement",
-                        "valid": false
+                        "response": "Graves"
                     },
                     {
                         "id": 3,
-                        "response": "probablement pas",
-                        "valid": false
+                        "response": "Nautilus"
                     }
                 ],
                 "correct_response": 0
+            },
+            {
+                "id": 6,
+                "question": "Quel personnage peut avaler ses alliés ?",
+                "responses": [
+                    {
+                        "id": 0,
+                        "response": "Nautilus"
+                    },
+                    {
+                        "id": 1,
+                        "response": "Tahm Kench"
+                    },
+                    {
+                        "id": 2,
+                        "response": "Illaoi"
+                    },
+                    {
+                        "id": 3,
+                        "response": "Fizz"
+                    }
+                ],
+                "correct_response": 1
+            },
+            {
+                "id": 7,
+                "question": "Fizz est un...",
+                "responses": [
+                    {
+                        "id": 0,
+                        "response": "Vastaya"
+                    },
+                    {
+                        "id": 1,
+                        "response": "Humain"
+                    },
+                    {
+                        "id": 2,
+                        "response": "Yordle"
+                    },
+                    {
+                        "id": 3,
+                        "response": "Monstre venu du Néant"
+                    }
+                ],
+                "correct_response": 2
+            },
+            {
+                "id": 8,
+                "question": "Pyke...",
+                "responses": [
+                    {
+                        "id": 0,
+                        "response": "aurait du mourir"
+                    },
+                    {
+                        "id": 1,
+                        "response": "est mort"
+                    },
+                    {
+                        "id": 2,
+                        "response": "tout à fait normal"
+                    },
+                    {
+                        "id": 3,
+                        "response": "est un marchand"
+                    }
+                ],
+                "correct_response": 0
+            },
+            {
+                "id": 9,
+                "question": "Bilgewater est...",
+                "responses": [
+                    {
+                        "id": 0,
+                        "response": "En période de transition"
+                    },
+                    {
+                        "id": 1,
+                        "response": "Une république"
+                    },
+                    {
+                        "id": 2,
+                        "response": "Gouverné par un roi"
+                    },
+                    {
+                        "id": 3,
+                        "response": "Un empire"
+                    }
+                ],
+                "correct_response": 1
+            }
+        ]
+    },
+
+    {
+        "id": 1,
+        "theme": "Frejlord",
+        "img": "frejlord.jpg",
+        "questions": [
+            {
+                "id": 0,
+                "question": "Frejlord est...",
+                "responses": [
+                    {
+                        "id": 0,
+                        "response": "Une terre inhospitalière"
+                    },
+                    {
+                        "id": 1,
+                        "response": "Une Ile de feu"
+                    },
+                    {
+                        "id": 2,
+                        "response": "Le Paradis de Runeterra"
+                    },
+                    {
+                        "id": 3,
+                        "response": "La Comté"
+                    }
+                ],
+                "correct_response": 0
+            },
+            {
+                "id": 1,
+                "question": "Les tribus de Frejlord sont considérés comme... ",
+                "responses": [
+                    {
+                        "id": 0,
+                        "response": "Des nobles"
+                    },
+                    {
+                        "id": 1,
+                        "response": "Des barbares"
+                    },
+                    {
+                        "id": 2,
+                        "response": "Des marchands"
+                    },
+                    {
+                        "id": 3,
+                        "response": "Des bon à rien"
+                    }
+                ],
+                "correct_response": 1
+            },
+            {
+                "id": 2,
+                "question": "Ashe est... ",
+                "responses": [
+                    {
+                        "id": 0,
+                        "response": "Une paysanne"
+                    },
+                    {
+                        "id": 1,
+                        "response": "La leader d'une tribue"
+                    },
+                    {
+                        "id": 2,
+                        "response": "Une simple guerrière"
+                    },
+                    {
+                        "id": 3,
+                        "response": "Une étrangère de Frejlord"
+                    }
+                ],
+                "correct_response": 1
+            },
+            {
+                "id": 3,
+                "question": "Ashe est mariée à... ",
+                "responses": [
+                    {
+                        "id": 0,
+                        "response": "Braum"
+                    },
+                    {
+                        "id": 1,
+                        "response": "Ezreal"
+                    },
+                    {
+                        "id": 2,
+                        "response": "Gragas"
+                    },
+                    {
+                        "id": 3,
+                        "response": "Tryndamere"
+                    }
+                ],
+                "correct_response": 3
+            },
+            {
+                "id": 4,
+                "question": "Gnar se bat avec... ",
+                "responses": [
+                    {
+                        "id": 0,
+                        "response": "Ses poings"
+                    },
+                    {
+                        "id": 1,
+                        "response": "Un arbre"
+                    },
+                    {
+                        "id": 2,
+                        "response": "Un Boomerang"
+                    },
+                    {
+                        "id": 3,
+                        "response": "Un pistolame hextech"
+                    }
+                ],
+                "correct_response": 3
+            },
+            {
+                "id": 5,
+                "question": "Le bouclier de Braum est... ",
+                "responses": [
+                    {
+                        "id": 0,
+                        "response": "Une porte enchanté"
+                    },
+                    {
+                        "id": 1,
+                        "response": "Un morceau de mur enchanté"
+                    },
+                    {
+                        "id": 2,
+                        "response": "Un tronc d'arbre enchanté"
+                    },
+                    {
+                        "id": 3,
+                        "response": "Un simple bouclier"
+                    }
+                ],
+                "correct_response": 0
+            },
+            {
+                "id": 6,
+                "question": "Braum sauva... coincé dans une maison",
+                "responses": [
+                    {
+                        "id": 0,
+                        "response": "Un petit poro"
+                    },
+                    {
+                        "id": 1,
+                        "response": "Une Famille entiere"
+                    },
+                    {
+                        "id": 2,
+                        "response": "Un petit troll"
+                    },
+                    {
+                        "id": 3,
+                        "response": "Un petit enfant"
+                    }
+                ],
+                "correct_response": 2
+            },
+            {
+                "id": 7,
+                "question": "Ornn est le dieu de... ",
+                "responses": [
+                    {
+                        "id": 0,
+                        "response": "La forge volcanique"
+                    },
+                    {
+                        "id": 1,
+                        "response": "La guerre"
+                    },
+                    {
+                        "id": 2,
+                        "response": "L'abyme hurlant"
+                    },
+                    {
+                        "id": 3,
+                        "response": "La Reconstruction"
+                    }
+                ],
+                "correct_response": 0
+            },
+            {
+                "id": 8,
+                "question": "Anivia est née... ",
+                "responses": [
+                    {
+                        "id": 0,
+                        "response": "D'un oeuf"
+                    },
+                    {
+                        "id": 1,
+                        "response": "Du vent et du froid"
+                    },
+                    {
+                        "id": 2,
+                        "response": "De deux aigles légendaires"
+                    },
+                    {
+                        "id": 3,
+                        "response": "N'existe pas"
+                    }
+                ],
+                "correct_response": 1
+            },
+            {
+                "id": 9,
+                "question": "Volibear est habité d'une haine profonde contre",
+                "responses": [
+                    {
+                        "id": 0,
+                        "response": "Ses parents"
+                    },
+                    {
+                        "id": 1,
+                        "response": "Les dieux"
+                    },
+                    {
+                        "id": 2,
+                        "response": "La civilisation"
+                    },
+                    {
+                        "id": 3,
+                        "response": "Les autres demi-dieux"
+                    }
+                ],
+                "correct_response": 2
+            }
+        ]
+    },
+
+    {
+        "id": 2,
+        "theme": "Demacia",
+        "img": "demacia.jpg",
+        "questions": [
+            {
+                "id": 0,
+                "question": "Le royaume de Demacia est fondé sur...",
+                "responses": [
+                    {
+                        "id": 0,
+                        "response": "La justice, l'honneur et le devoir"
+                    },
+                    {
+                        "id": 1,
+                        "response": "La liberté, l'égalité et la fraternité"
+                    },
+                    {
+                        "id": 2,
+                        "response": "L'irrespect, la deshonneur et la guerre"
+                    },
+                    {
+                        "id": 3,
+                        "response": "Rien"
+                    }
+                ],
+                "correct_response": 0
+            },
+            {
+                "id": 1,
+                "question": "Jarvan IV est... ",
+                "responses": [
+                    {
+                        "id": 0,
+                        "response": "Le roi de Demacia"
+                    },
+                    {
+                        "id": 1,
+                        "response": "Le prince, hérité du trone, de Demacia"
+                    },
+                    {
+                        "id": 2,
+                        "response": "Le meilleur guerrier de Demacia"
+                    },
+                    {
+                        "id": 3,
+                        "response": "Un marchand"
+                    }
+                ],
+                "correct_response": 1
+            },
+            {
+                "id": 2,
+                "question": "La réplique que prononce Garen est... ",
+                "responses": [
+                    {
+                        "id": 0,
+                        "response": "Mort à l'ennemie !"
+                    },
+                    {
+                        "id": 1,
+                        "response": "Mon coeur et mon épée appartiennent à Demacia !"
+                    },
+                    {
+                        "id": 2,
+                        "response": "Ma couleur préféré c'est le printemps."
+                    },
+                    {
+                        "id": 3,
+                        "response": "1, 2, 3, 4..; 1, 2, 3, 4..; 1, 2, 3, 4.."
+                    }
+                ],
+                "correct_response": 1
+            },
+            {
+                "id": 3,
+                "question": "Lux est originaire de... ",
+                "responses": [
+                    {
+                        "id": 0,
+                        "response": "Demacia"
+                    },
+                    {
+                        "id": 1,
+                        "response": "Shurima"
+                    },
+                    {
+                        "id": 2,
+                        "response": "Noxus"
+                    },
+                    {
+                        "id": 3,
+                        "response": "Ionia"
+                    }
+                ],
+                "correct_response": 0
+            },
+            {
+                "id": 4,
+                "question": "Galio vit grace... ",
+                "responses": [
+                    {
+                        "id": 0,
+                        "response": "à la pierre"
+                    },
+                    {
+                        "id": 1,
+                        "response": "à la magie"
+                    },
+                    {
+                        "id": 2,
+                        "response": "au vent"
+                    },
+                    {
+                        "id": 3,
+                        "response": "à l'eau"
+                    }
+                ],
+                "correct_response": 0
+            },
+            {
+                "id": 5,
+                "question": "Kayle est la soeur jumelle de... ",
+                "responses": [
+                    {
+                        "id": 0,
+                        "response": "Vayne"
+                    },
+                    {
+                        "id": 1,
+                        "response": "Queen"
+                    },
+                    {
+                        "id": 2,
+                        "response": "Morgana"
+                    },
+                    {
+                        "id": 3,
+                        "response": "Shyvana"
+                    }
+                ],
+                "correct_response": 2
+            },
+            {
+                "id": 6,
+                "question": "Morgana veut eradiquer... ",
+                "responses": [
+                    {
+                        "id": 0,
+                        "response": "Les gens honnêtes"
+                    },
+                    {
+                        "id": 1,
+                        "response": "Les gens malhonnêtes"
+                    },
+                    {
+                        "id": 2,
+                        "response": "Les demi-dieux"
+                    },
+                    {
+                        "id": 3,
+                        "response": "Les Dieux"
+                    }
+                ],
+                "correct_response": 0
+            },
+            {
+                "id": 7,
+                "question": "Sona... ",
+                "responses": [
+                    {
+                        "id": 0,
+                        "response": "S'exprime avec sa voix"
+                    },
+                    {
+                        "id": 1,
+                        "response": "S'exprime qu'avec sa harpe"
+                    },
+                    {
+                        "id": 2,
+                        "response": "N'exprime jamais rien"
+                    },
+                    {
+                        "id": 3,
+                        "response": "est considéré comme une déesse"
+                    }
+                ],
+                "correct_response": 0
+            },
+            {
+                "id": 8,
+                "question": "Sylas a été emprisonné... ",
+                "responses": [
+                    {
+                        "id": 0,
+                        "response": "Pour meurtre"
+                    },
+                    {
+                        "id": 1,
+                        "response": "Pour utilisation de magie"
+                    },
+                    {
+                        "id": 2,
+                        "response": "A tort"
+                    },
+                    {
+                        "id": 3,
+                        "response": "Pour vol"
+                    }
+                ],
+                "correct_response": 1
+            },
+            {
+                "id": 9,
+                "question": "Fiora est... ",
+                "responses": [
+                    {
+                        "id": 0,
+                        "response": "Une escrimeuse"
+                    },
+                    {
+                        "id": 1,
+                        "response": "Une tirreuse hors-pair"
+                    },
+                    {
+                        "id": 2,
+                        "response": "Une duelliste"
+                    },
+                    {
+                        "id": 3,
+                        "response": "Une archère"
+                    }
+                ],
+                "correct_response": 2
+            }
+        ]
+    },
+
+    {
+        "id": 3,
+        "theme": "Ionia",
+        "img": "ionia.jpg",
+        "questions": [
+            {
+                "id": 0,
+                "question": "Ionia a été envahit par...",
+                "responses": [
+                    {
+                        "id": 0,
+                        "response": "Bandle"
+                    },
+                    {
+                        "id": 1,
+                        "response": "Demacia"
+                    },
+                    {
+                        "id": 2,
+                        "response": "Le Néant"
+                    },
+                    {
+                        "id": 3,
+                        "response": "Noxus"
+                    }
+                ],
+                "correct_response": 3
+            },
+            {
+                "id": 1,
+                "question": "L'arme de Kayn a pour nom...",
+                "responses": [
+                    {
+                        "id": 0,
+                        "response": "Rakan"
+                    },
+                    {
+                        "id": 1,
+                        "response": "Xayah"
+                    },
+                    {
+                        "id": 2,
+                        "response": "Rhaast"
+                    },
+                    {
+                        "id": 3,
+                        "response": "Rell"
+                    }
+                ],
+                "correct_response": 2
+            },
+            {
+                "id": 2,
+                "question": "Jhin est...",
+                "responses": [
+                    {
+                        "id": 0,
+                        "response": "Un psychopathe"
+                    },
+                    {
+                        "id": 1,
+                        "response": "Un sabreur d'exception"
+                    },
+                    {
+                        "id": 2,
+                        "response": "Originaire de Noxus"
+                    },
+                    {
+                        "id": 3,
+                        "response": "Ami à Shen"
+                    }
+                ],
+                "correct_response": 0
+            },
+            {
+                "id": 3,
+                "question": "L'art préféré de Jhin est...",
+                "responses": [
+                    {
+                        "id": 0,
+                        "response": "La musique"
+                    },
+                    {
+                        "id": 1,
+                        "response": "Le théâtre"
+                    },
+                    {
+                        "id": 2,
+                        "response": "L'architecture"
+                    },
+                    {
+                        "id": 3,
+                        "response": "La littérature"
+                    }
+                ],
+                "correct_response": 1
+            },
+            {
+                "id": 4,
+                "question": "Xayah a pour amour...",
+                "responses": [
+                    {
+                        "id": 0,
+                        "response": "Rakan"
+                    },
+                    {
+                        "id": 1,
+                        "response": "Shen"
+                    },
+                    {
+                        "id": 2,
+                        "response": "Jarvan IV"
+                    },
+                    {
+                        "id": 3,
+                        "response": "Rell"
+                    }
+                ],
+                "correct_response": 0
+            },
+            {
+                "id": 5,
+                "question": "Irélia utilise ... pour se battre",
+                "responses": [
+                    {
+                        "id": 0,
+                        "response": "Le Kun-fu"
+                    },
+                    {
+                        "id": 1,
+                        "response": "Le Karaté"
+                    },
+                    {
+                        "id": 2,
+                        "response": "La Dance"
+                    },
+                    {
+                        "id": 3,
+                        "response": "Le Judo"
+                    }
+                ],
+                "correct_response": 2
+            },
+            {
+                "id": 6,
+                "question": "Yasuo est accusé d'avoir...",
+                "responses": [
+                    {
+                        "id": 0,
+                        "response": "Tuer son frère"
+                    },
+                    {
+                        "id": 1,
+                        "response": "Tuer son maitre"
+                    },
+                    {
+                        "id": 2,
+                        "response": "Bruler son village"
+                    },
+                    {
+                        "id": 3,
+                        "response": "Voler son village"
+                    }
+                ],
+                "correct_response": 1
+            },
+            {
+                "id": 7,
+                "question": "Ivern était aussi appelé...",
+                "responses": [
+                    {
+                        "id": 0,
+                        "response": "Ivern la Douceur"
+                    },
+                    {
+                        "id": 1,
+                        "response": "Ivern le Timide"
+                    },
+                    {
+                        "id": 2,
+                        "response": "Ivern le Rancunier"
+                    },
+                    {
+                        "id": 3,
+                        "response": "Ivern le Cruel"
+                    }
+                ],
+                "correct_response": 3
+            },
+            {
+                "id": 8,
+                "question": "Le meilleur ami de Shen était...",
+                "responses": [
+                    {
+                        "id": 0,
+                        "response": "Zed"
+                    },
+                    {
+                        "id": 1,
+                        "response": "Rakan"
+                    },
+                    {
+                        "id": 2,
+                        "response": "Gragas"
+                    },
+                    {
+                        "id": 3,
+                        "response": "Yasuo"
+                    }
+                ],
+                "correct_response": 0
+            },
+            {
+                "id": 9,
+                "question": "Zed est le maitre de l'ordre ...",
+                "responses": [
+                    {
+                        "id": 0,
+                        "response": "De la lumière"
+                    },
+                    {
+                        "id": 1,
+                        "response": "De l'ombre"
+                    },
+                    {
+                        "id": 2,
+                        "response": "Du Neant"
+                    },
+                    {
+                        "id": 3,
+                        "response": "De Ionia"
+                    }
+                ],
+                "correct_response": 1
             }
         ]
     }

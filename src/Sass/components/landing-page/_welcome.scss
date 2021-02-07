@@ -8,3 +8,11 @@
         background-color: $whiteTransparancy;
     }
 }
+
+@media screen and (max-width: 640px) {
+    .welcome_title_container{
+        p{
+            margin-bottom: 7%;
+        }
+    }
+}
