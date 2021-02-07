@@ -10,7 +10,7 @@ function QuestionComponent(props) {
     // On Initialise le score
     const [score, setScore] = useState(0);
     //on initialise une variable de check
-    const [isSelected, setIsSelected] = useState(false);
+    // const [isSelected, setIsSelected] = useState(false);
     // On récupère l'id du theme dans l'url
     let { id } = useParams();
     // On récupère les questions en fonction de l'id
@@ -18,7 +18,7 @@ function QuestionComponent(props) {
 
     return (
         <ShowQuestion allQuestions={allQuestions} currentQuestionId={currentQuestionId} setCurrentQuestionId={setCurrentQuestionId} 
-        score={score} setScore={setScore} isSelected={isSelected} setIsSelected={setIsSelected}/>
+        score={score} setScore={setScore} />
     )
 
 }
@@ -30,7 +30,7 @@ function ShowQuestion(props){
         return (
             <div className="container white">
                 <GetCurrentQuestion allQuestions={props.allQuestions} currentQuestionId={props.currentQuestionId} setCurrentQuestionId={props.setCurrentQuestionId} 
-                score={props.score} setScore={props.setScore} isSelected={props.isSelected} setIsSelected={props.setIsSelected}/>
+                score={props.score} setScore={props.setScore}/>
             </div>
         ) 
     }
@@ -60,13 +60,12 @@ function GetCurrentQuestion(props) {
             </div>
             <form>            
                 <div className="response_container">
-                    <ShowResponses responses={question.responses} setIsSelected={props.setIsSelected}/>
+                    <ShowResponses responses={question.responses}/>
                 </div>
             </form>
             <div className="submit_container">
                 <ButtonSubmit score={props.score} setScore={props.setScore} currentQuestionId={props.currentQuestionId}
-                setCurrentQuestionId={props.setCurrentQuestionId} correct_response={question.correct_response}
-                isSelected={props.isSelected} setIsSelected={props.setIsSelected}/>
+                setCurrentQuestionId={props.setCurrentQuestionId} correct_response={question.correct_response}/>
             </div>
         </>
     )
@@ -100,7 +99,7 @@ function ShowResponses(props){
             <div className="center" key={key}>
                 <div>
                     <label>
-                        <input className="checkbox_custom" type="radio" id={value.response} name="response" value={value.id} onChange={() => {props.setIsSelected(true)}}/>
+                        <input className="checkbox_custom" type="radio" id={value.response} name="response" value={value.id} />
                     </label>
                 </div>
                 <div>
@@ -118,7 +117,7 @@ function ShowResponses(props){
 
 function ButtonSubmit(props) {
     return (
-        <button className="button btn_quizz" disabled={!props.isSelected}
+        <button className="button btn_quizz"
         onClick={() => {
             props.setCurrentQuestionId(props.currentQuestionId + 1);
             const form = document.querySelector("form");
@@ -127,7 +126,6 @@ function ButtonSubmit(props) {
                 if(+entry[1] === props.correct_response){
                     props.setScore(props.score + 1);
                 }
-                props.setIsSelected(false);
             };
             }}>
             Valider
