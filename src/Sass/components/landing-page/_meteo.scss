@@ -28,3 +28,22 @@
 
 
 }
+
+@media screen and (max-width: 640px) {
+    .meteo_container{
+        background-image: none;
+        background-repeat: repeat;
+        height: 50vh;
+
+        .meteo_paragraphe{
+            text-align: center;
+            margin-left: 50px;
+        }
+
+        .meteo_icon img{
+            margin-right: 20%;
+            width: 120%;
+        }
+    
+    }
+}

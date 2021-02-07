@@ -16,7 +16,7 @@ function QuizzPresentationComponent() {
                 
             }}>
                 <div className="paragraphe_container">
-                    <p className="subtitle weight_bold paragraphe_title lolFont">Qu'est ce que League Quizz ?</p>
+                    <p className="title weight_bold paragraphe_title lolFont">Qu'est ce que League Quizz ?</p>
 
                     <p className="paragraphe">
                         League of Legends est un jeu de stratégie en équipe dans lequel deux équipes de cinq champions s'affrontent pour détruire la base adverse. Faites votre choix parmi plus de 140 champions disponibles, partez au combat, éliminez vos adversaires avec adresse et abattez les tourelles ennemies pour décrocher la victoire.

@@ -27,4 +27,13 @@
     font-size: 2rem;
 }
 
+.progress{
+    width: 100%;
+    background-color: grey;
+    .bar{
+        width: 1%;
+        height: 20px;
+        background-color: blue;
+    }
+}
 

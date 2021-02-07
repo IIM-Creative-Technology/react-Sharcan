@@ -6,57 +6,234 @@
         "questions": [
             {
                 "id": 0,
-                "question": "Miss Fortune fait-elle partie de la Région Bilgewater ?",
+                "question": "Bilgewater se trouve...",
                 "responses": [
                     {
                         "id": 0,
-                        "response": "oui",
-                        "valid": true
+                        "response": "Dans l'archipel des Iles de la Flamme bleue"
                     },
                     {
                         "id": 1,
-                        "response": "non",
-                        "valid": false
+                        "response": "Au sommet du Mont Targon"
                     },
                     {
                         "id": 2,
-                        "response": "probablement",
-                        "valid": false
+                        "response": "N'existe pas"
                     },
                     {
                         "id": 3,
-                        "response": "probablement pas",
-                        "valid": false
+                        "response": "Au Sud de Ionia"
                     }
                 ],
                 "correct_response": 0
             },
             {
                 "id": 1,
-                "question": "Nautilus ne fait pas partie de la Région Bilgewater ?",
+                "question": "Bilgwater est avant tout...",
                 "responses": [
                     {
                         "id": 0,
-                        "response": "oui",
-                        "valid": false
+                        "response": "Un marché où l'on trouve des Poros"
                     },
                     {
                         "id": 1,
-                        "response": "non",
-                        "valid": false
+                        "response": "Une ville portuaire connecté au reste de Runeterra"
                     },
                     {
                         "id": 2,
-                        "response": "probablement",
-                        "valid": false
+                        "response": "Un lieu paisible"
                     },
                     {
                         "id": 3,
-                        "response": "probablement pas",
-                        "valid": true
+                        "response": "Une colonie de Vastayas"
+                    }
+                ],
+                "correct_response": 1
+            },
+            {
+                "id": 2,
+                "question": "Le veritable de prénom de Miss Fortune est...",
+                "responses": [
+                    {
+                        "id": 0,
+                        "response": "Clara Fortune"
+                    },
+                    {
+                        "id": 1,
+                        "response": "Sarah Fortune"
+                    },
+                    {
+                        "id": 2,
+                        "response": "Marla Fortune"
+                    },
+                    {
+                        "id": 3,
+                        "response": "Titouan Fortune"
+                    }
+                ],
+                "correct_response": 1
+            },
+            
+            {
+                "id": 3,
+                "question": "Twisted Fate est le spécialiste ...",
+                "responses": [
+                    {
+                        "id": 0,
+                        "response": "Des sabres"
+                    },
+                    {
+                        "id": 1,
+                        "response": "Des tentacules"
+                    },
+                    {
+                        "id": 2,
+                        "response": "Des arcs"
+                    },
+                    {
+                        "id": 3,
+                        "response": "Des cartes"
                     }
                 ],
                 "correct_response": 3
+            },
+            {
+                "id": 4,
+                "question": "Le veritable de nom de Twisted Fates est...",
+                "responses": [
+                    {
+                        "id": 0,
+                        "response": "Graves Fates"
+                    },
+                    {
+                        "id": 1,
+                        "response": "Eude Fates"
+                    },
+                    {
+                        "id": 2,
+                        "response": "Tobias Felix"
+                    },
+                    {
+                        "id": 3,
+                        "response": "John Doe"
+                    }
+                ],
+                "correct_response": 2
+            },
+            {
+                "id": 5,
+                "question": "Le roi des pillards est plus connu sous le nom de...",
+                "responses": [
+                    {
+                        "id": 0,
+                        "response": "Gankplank"
+                    },
+                    {
+                        "id": 1,
+                        "response": "Twisted Fates"
+                    },
+                    {
+                        "id": 2,
+                        "response": "Graves"
+                    },
+                    {
+                        "id": 3,
+                        "response": "Nautilus"
+                    }
+                ],
+                "correct_response": 0
+            },
+            {
+                "id": 6,
+                "question": "Quel personnage peut avaler ses alliés ?",
+                "responses": [
+                    {
+                        "id": 0,
+                        "response": "Nautilus"
+                    },
+                    {
+                        "id": 1,
+                        "response": "Tahm Kench"
+                    },
+                    {
+                        "id": 2,
+                        "response": "Illaoi"
+                    },
+                    {
+                        "id": 3,
+                        "response": "Fizz"
+                    }
+                ],
+                "correct_response": 1
+            },
+            {
+                "id": 7,
+                "question": "Fizz est un...",
+                "responses": [
+                    {
+                        "id": 0,
+                        "response": "Vastaya"
+                    },
+                    {
+                        "id": 1,
+                        "response": "Humain"
+                    },
+                    {
+                        "id": 2,
+                        "response": "Yordle"
+                    },
+                    {
+                        "id": 3,
+                        "response": "Monstre venu du Néant"
+                    }
+                ],
+                "correct_response": 2
+            },
+            {
+                "id": 8,
+                "question": "Pyke...",
+                "responses": [
+                    {
+                        "id": 0,
+                        "response": "aurait du mourir"
+                    },
+                    {
+                        "id": 1,
+                        "response": "est mort"
+                    },
+                    {
+                        "id": 2,
+                        "response": "tout à fait normal"
+                    },
+                    {
+                        "id": 3,
+                        "response": "est un marchand"
+                    }
+                ],
+                "correct_response": 0
+            },
+            {
+                "id": 9,
+                "question": "Bilgewater est...",
+                "responses": [
+                    {
+                        "id": 0,
+                        "response": "En période de transition"
+                    },
+                    {
+                        "id": 1,
+                        "response": "Une république"
+                    },
+                    {
+                        "id": 2,
+                        "response": "Gouverné par un roi"
+                    },
+                    {
+                        "id": 3,
+                        "response": "Un empire"
+                    }
+                ],
+                "correct_response": 1
             }
         ]
     },

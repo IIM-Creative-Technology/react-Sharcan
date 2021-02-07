@@ -35,13 +35,13 @@ function ShowQuestion(props){
         ) 
     }
 
-    return <div className="container"><ShowResult score={props.score}/></div>
+    return <div className="container"><ShowResult questionLength={props.allQuestions.length} score={props.score}/></div>
 }
 
 function ShowResult(props) {
     return (
         <>
-            <p className="title lolFont white">Votre score final: <span className="weight_bold">{props.score}</span></p>
+            <p className="title lolFont white">Votre score final: <span className="weight_bold">{props.score}/{props.questionLength}</span></p>
 
             <button className="button mt-2">
                 <Link to="/quizz">Revenir aux thèmes</Link>
@@ -132,6 +132,15 @@ function ButtonSubmit(props) {
             }}>
             Valider
         </button>
+    )
+}
+
+function ProgressBar(props) {
+
+    return (
+        <div className="progress">
+            <div className="bar"></div>
+        </div>
     )
 }
 
