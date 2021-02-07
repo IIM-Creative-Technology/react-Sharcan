@@ -16,7 +16,7 @@ function MeteoComponent() {
     useEffect(() => {
         navigator.geolocation.getCurrentPosition((position) => {
             axios
-            .get(`http://api.openweathermap.org/data/2.5/weather?lat=${position.coords.latitude}&lon=${position.coords.longitude}&appid=${keyApi}`)
+            .get(`https://api.openweathermap.org/data/2.5/weather?lat=${position.coords.latitude}&lon=${position.coords.longitude}&appid=${keyApi}`)
             .then(response => {
                 setMeteoData(response.data.name);
                 setMeteoIcon(response.data.weather[0].icon);
