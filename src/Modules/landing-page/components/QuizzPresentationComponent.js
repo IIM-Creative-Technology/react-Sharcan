@@ -19,7 +19,8 @@ function QuizzPresentationComponent() {
                     <p className="title weight_bold paragraphe_title lolFont">Qu'est ce que League Quizz ?</p>
 
                     <p className="paragraphe">
-                        League of Legends est un jeu de stratégie en équipe dans lequel deux équipes de cinq champions s'affrontent pour détruire la base adverse. Faites votre choix parmi plus de 140 champions disponibles, partez au combat, éliminez vos adversaires avec adresse et abattez les tourelles ennemies pour décrocher la victoire.
+                        League Quizz est un site sur lequel tu peux tester tes connaissances sur l'univers de League of Legends et plus precisément Runeterra.
+                        Tu trouveras 4 quizzs chacun portant sur une région différente de Runeterra. Les question y sont divers, elles portent sur les champions mais aussi sur les régions.
                     </p>
                 </div>
             </div>
